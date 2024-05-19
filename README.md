@@ -20,16 +20,11 @@ You can open the `Comic_Generation.ipynb` and run the code.
 
 ## Start a local gradio demo
 Run the following command:
-**(Recommend)** We provide a low GPU Memory cost version, it was tested on a machine with 24GB GPU-memory(Tesla A10) and 30GB RAM, and expected to work well with >20 G GPU-memory.
 
 ### Command
+```python
 python3 gradio_app_sdxl_specific_id_low_vram.py
+```
 
 
-```BibTeX
-@article{zhou2024storydiffusion,
-  title={StoryDiffusion: Consistent Self-Attention for Long-Range Image and Video Generation},
-  author={Zhou, Yupeng and Zhou, Daquan and Cheng, Ming-Ming and Feng, Jiashi and Hou, Qibin},
-  journal={arXiv preprint arXiv:2405.01434},
-  year={2024}
-}
+**(Recommend)** Tested on a machine with 24GB GPU-memory (Tesla A10) and 30GB RAM, and expected to work well with >20 G GPU-memory.
